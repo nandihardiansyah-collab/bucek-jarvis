@@ -1,0 +1,32 @@
+{
+  "name": "bucek-jarvis",
+  "version": "1.0.0",
+  "description": "AI Assistant lokal untuk Windows dengan voice commands dan Ollama",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "setup": "node setup-autostart.js"
+  },
+  "keywords": [
+    "ai",
+    "assistant",
+    "jarvis",
+    "voice",
+    "ollama",
+    "windows"
+  ],
+  "author": "nandihardiansyah-collab",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "wav-file": "^0.0.10",
+    "speaker": "^0.5.4",
+    "microphone": "^0.0.1",
+    "child-process-promise": "^2.3.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

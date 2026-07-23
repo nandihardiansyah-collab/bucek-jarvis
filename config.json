@@ -1,0 +1,46 @@
+{
+  "applications": {
+    "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "firefox": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "notepad": "notepad.exe",
+    "vscode": "C:\\Users\\YourUsername\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "telegram": "C:\\Users\\YourUsername\\AppData\\Local\\Programs\\Telegram Desktop\\Telegram.exe",
+    "discord": "C:\\Users\\YourUsername\\AppData\\Local\\Discord\\app-VERSION\\Discord.exe",
+    "spotify": "C:\\Users\\YourUsername\\AppData\\Roaming\\Spotify\\Spotify.exe",
+    "explorer": "explorer.exe",
+    "powershell": "powershell.exe",
+    "calculator": "calc.exe",
+    "paint": "mspaint.exe",
+    "wordpad": "wordpad.exe",
+    "vlc": "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+  },
+  "folders": {
+    "downloads": "%USERPROFILE%\\Downloads",
+    "documents": "%USERPROFILE%\\Documents",
+    "desktop": "%USERPROFILE%\\Desktop",
+    "pictures": "%USERPROFILE%\\Pictures",
+    "music": "%USERPROFILE%\\Music"
+  },
+  "ollama": {
+    "host": "localhost",
+    "port": 11434,
+    "model": "llama2",
+    "maxMemory": 6144,
+    "timeout": 30000
+  },
+  "voice": {
+    "language": "id-ID",
+    "wakeWord": "hey bucek",
+    "recognitionLanguage": "id-ID"
+  },
+  "tts": {
+    "language": "id-ID",
+    "voice": "Microsoft Zira Desktop"
+  },
+  "system": {
+    "debug": true,
+    "autoStartOllama": true,
+    "autoRestartOllama": true,
+    "checkInterval": 5000
+  }
+}
